@@ -12,11 +12,11 @@ const VideoCard = ({ video }) => {
     const image = video.snippet.thumbnails.high.url;
     const { title, description } = video.snippet;
 
-    return (<Card role="figure">
-        <CardImage src={image} alt={title}/>
+    return (<Card>
+        <CardImage src={image} alt={title} figcaption={description}/>
         <CardContent>
             <CardTitle title="video-title">{ title }</CardTitle>
-            <CardDescription >{ description }</CardDescription>
+            <CardDescription>{ description }</CardDescription>
         </CardContent>
     </Card>);
 };

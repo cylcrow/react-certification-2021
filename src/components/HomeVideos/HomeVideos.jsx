@@ -18,7 +18,7 @@ const HomeVideos = () => {
         const key = JSON.stringify(video.id);
         return (
           <div key={key} data-testid={`video-card-${key}`}>
-            <VideoCard video={video}/>
+            <VideoCard video={video} />
           </div>
         );
       })}

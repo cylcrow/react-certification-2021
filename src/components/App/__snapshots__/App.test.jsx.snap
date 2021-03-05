@@ -3,22 +3,22 @@
 exports[`App layout renders 1`] = `
 <div>
   <div
-    class="sc-gqjmRU ciEuOZ"
+    class="sc-VigVT hxPfJy"
     data-testid="layout-wrapper"
     role="application"
   >
     <div
-      class="sc-dnqmqq NHvrK"
+      class="sc-iwsKbI fwoerb"
       data-testid="header"
       role="toolbar"
     >
       <div
-        class="sc-iwsKbI hQBmBE"
+        class="sc-gZMcBi hhbgDr"
       >
         <div>
           <img
             alt="hamburguer"
-            class="sc-bZQynM fQIdZv"
+            class="sc-gzVnrw iCjpdg"
             role="button"
             src="hamburguer.png"
           />
@@ -27,19 +27,19 @@ exports[`App layout renders 1`] = `
           data-testid="search-input"
         >
           <input
-            class="sc-htoDjs qDjDL"
+            class="sc-dnqmqq eJdbOI"
             role="search"
           />
         </div>
       </div>
       <div
-        class="sc-iwsKbI hQBmBE"
+        class="sc-gZMcBi hhbgDr"
       >
         <div
           data-testid="theme-mode-switch"
         >
           <input
-            class="sc-gzVnrw ibZhkv"
+            class="sc-htoDjs bZzhDu"
             role="switch"
             type="checkbox"
           />
@@ -57,44 +57,53 @@ exports[`App layout renders 1`] = `
       </div>
     </div>
     <div
-      class="sc-gZMcBi flgFgk"
+      class="sc-gqjmRU bMokHB"
       data-testid="main-content"
       role="main"
     >
       <div
-        class="sc-jTzLTM cpVoso"
+        class="sc-fjdhpX fJdZy"
       >
         <h1>
           Welcome to the challenge!
         </h1>
       </div>
       <div
-        class="sc-VigVT fMNWqG"
+        class="sc-jTzLTM dnPpCj"
       >
         <div
           data-testid="video-card-{\\"kind\\":\\"youtube#channel\\",\\"channelId\\":\\"UCPGzT4wecuWM0BH9mPiulXg\\"}"
         >
           <div
             class="sc-bwzfXH fFIYHG"
-            role="figure"
+            role=""
           >
-            <img
-              alt="Wizeline"
-              class="sc-ifAKCX gmaJUr"
-              src="https://yt3.ggpht.com/ytc/AAUvwnighSReQlmHl_S_vSfvnWBAG5Cw4A0YxtE0tm5OpQ=s800-c-k-c0xffffffff-no-rj-mo"
-            />
+            <figure
+              class="sc-ifAKCX kHuOca"
+            >
+              <img
+                alt="Wizeline"
+                class="sc-EHOje hZoKKp"
+                src="https://yt3.ggpht.com/ytc/AAUvwnighSReQlmHl_S_vSfvnWBAG5Cw4A0YxtE0tm5OpQ=s800-c-k-c0xffffffff-no-rj-mo"
+              />
+              <figcaption
+                hidden=""
+              >
+                Wizeline transforms how teams build technology. Its customers accelerate the delivery of innovative products with proven solutions, which combine Wizeline's ...
+              </figcaption>
+            </figure>
             <div
               class="sc-htpNat jRJAUB"
             >
               <h2
-                class="sc-EHOje cgeWk"
+                class="sc-bZQynM iihQAR"
                 title="video-title"
               >
                 Wizeline
               </h2>
               <p
                 class="sc-bxivhb iKRSeQ"
-                role="figcaption"
+                role=""
               >
                 Wizeline transforms how teams build technology. Its customers accelerate the delivery of innovative products with proven solutions, which combine Wizeline's ...
               </p>
@@ -106,25 +115,34 @@ exports[`App layout renders 1`] = `
         >
           <div
             class="sc-bwzfXH fFIYHG"
-            role="figure"
+            role=""
           >
-            <img
-              alt="Video Tour | Welcome to Wizeline Guadalajara"
-              class="sc-ifAKCX gmaJUr"
-              src="https://i.ytimg.com/vi/nmXMgqjQzls/hqdefault.jpg"
-            />
+            <figure
+              class="sc-ifAKCX kHuOca"
+            >
+              <img
+                alt="Video Tour | Welcome to Wizeline Guadalajara"
+                class="sc-EHOje hZoKKp"
+                src="https://i.ytimg.com/vi/nmXMgqjQzls/hqdefault.jpg"
+              />
+              <figcaption
+                hidden=""
+              >
+                Follow Hector Padilla, Wizeline Director of Engineering, for a lively tour of our office. In 2018, Wizeline opened its stunning new office in Guadalajara, Jalisco, ...
+              </figcaption>
+            </figure>
             <div
               class="sc-htpNat jRJAUB"
             >
               <h2
-                class="sc-EHOje cgeWk"
+                class="sc-bZQynM iihQAR"
                 title="video-title"
               >
                 Video Tour | Welcome to Wizeline Guadalajara
               </h2>
               <p
                 class="sc-bxivhb iKRSeQ"
-                role="figcaption"
+                role=""
               >
                 Follow Hector Padilla, Wizeline Director of Engineering, for a lively tour of our office. In 2018, Wizeline opened its stunning new office in Guadalajara, Jalisco, ...
               </p>
@@ -136,25 +154,34 @@ exports[`App layout renders 1`] = `
         >
           <div
             class="sc-bwzfXH fFIYHG"
-            role="figure"
+            role=""
           >
-            <img
-              alt="Wizeline Guadalajara | Bringing Silicon Valley to Mexico"
-              class="sc-ifAKCX gmaJUr"
-              src="https://i.ytimg.com/vi/HYyRZiwBWc8/hqdefault.jpg"
-            />
+            <figure
+              class="sc-ifAKCX kHuOca"
+            >
+              <img
+                alt="Wizeline Guadalajara | Bringing Silicon Valley to Mexico"
+                class="sc-EHOje hZoKKp"
+                src="https://i.ytimg.com/vi/HYyRZiwBWc8/hqdefault.jpg"
+              />
+              <figcaption
+                hidden=""
+              >
+                Wizeline continues to offer a Silicon Valley culture in burgeoning innovation hubs like Mexico and Vietnam. In 2018, our Guadalajara team moved into a ...
+              </figcaption>
+            </figure>
             <div
               class="sc-htpNat jRJAUB"
             >
               <h2
-                class="sc-EHOje cgeWk"
+                class="sc-bZQynM iihQAR"
                 title="video-title"
               >
                 Wizeline Guadalajara | Bringing Silicon Valley to Mexico
               </h2>
               <p
                 class="sc-bxivhb iKRSeQ"
-                role="figcaption"
+                role=""
               >
                 Wizeline continues to offer a Silicon Valley culture in burgeoning innovation hubs like Mexico and Vietnam. In 2018, our Guadalajara team moved into a ...
               </p>
@@ -166,25 +193,34 @@ exports[`App layout renders 1`] = `
         >
           <div
             class="sc-bwzfXH fFIYHG"
-            role="figure"
+            role=""
           >
-            <img
-              alt="Wizeline hace sentir a empleados como en casa"
-              class="sc-ifAKCX gmaJUr"
-              src="https://i.ytimg.com/vi/Po3VwR_NNGk/hqdefault.jpg"
-            />
+            <figure
+              class="sc-ifAKCX kHuOca"
+            >
+              <img
+                alt="Wizeline hace sentir a empleados como en casa"
+                class="sc-EHOje hZoKKp"
+                src="https://i.ytimg.com/vi/Po3VwR_NNGk/hqdefault.jpg"
+              />
+              <figcaption
+                hidden=""
+              >
+                En el 2014, Bismarck fundó Wizeline, compañía tecnológica que trabaja con los corporativos ofreciendo una plataforma para que desarrollen software de forma ...
+              </figcaption>
+            </figure>
             <div
               class="sc-htpNat jRJAUB"
             >
               <h2
-                class="sc-EHOje cgeWk"
+                class="sc-bZQynM iihQAR"
                 title="video-title"
               >
                 Wizeline hace sentir a empleados como en casa
               </h2>
               <p
                 class="sc-bxivhb iKRSeQ"
-                role="figcaption"
+                role=""
               >
                 En el 2014, Bismarck fundó Wizeline, compañía tecnológica que trabaja con los corporativos ofreciendo una plataforma para que desarrollen software de forma ...
               </p>
@@ -196,25 +232,34 @@ exports[`App layout renders 1`] = `
         >
           <div
             class="sc-bwzfXH fFIYHG"
-            role="figure"
+            role=""
           >
-            <img
-              alt="We Are Wizeline"
-              class="sc-ifAKCX gmaJUr"
-              src="https://i.ytimg.com/vi/7PtYNO6g7eI/hqdefault.jpg"
-            />
+            <figure
+              class="sc-ifAKCX kHuOca"
+            >
+              <img
+                alt="We Are Wizeline"
+                class="sc-EHOje hZoKKp"
+                src="https://i.ytimg.com/vi/7PtYNO6g7eI/hqdefault.jpg"
+              />
+              <figcaption
+                hidden=""
+              >
+                Engineering a better tomorrow. Wizeline is a global software development company that helps its clients solve their biggest challenges with design and ...
+              </figcaption>
+            </figure>
             <div
               class="sc-htpNat jRJAUB"
             >
               <h2
-                class="sc-EHOje cgeWk"
+                class="sc-bZQynM iihQAR"
                 title="video-title"
               >
                 We Are Wizeline
               </h2>
               <p
                 class="sc-bxivhb iKRSeQ"
-                role="figcaption"
+                role=""
               >
                 Engineering a better tomorrow. Wizeline is a global software development company that helps its clients solve their biggest challenges with design and ...
               </p>
@@ -226,25 +271,34 @@ exports[`App layout renders 1`] = `
         >
           <div
             class="sc-bwzfXH fFIYHG"
-            role="figure"
+            role=""
           >
-            <img
-              alt="Wizeline Thrives in Mexico City"
-              class="sc-ifAKCX gmaJUr"
-              src="https://i.ytimg.com/vi/YuW0CE_8i1I/hqdefault.jpg"
-            />
+            <figure
+              class="sc-ifAKCX kHuOca"
+            >
+              <img
+                alt="Wizeline Thrives in Mexico City"
+                class="sc-EHOje hZoKKp"
+                src="https://i.ytimg.com/vi/YuW0CE_8i1I/hqdefault.jpg"
+              />
+              <figcaption
+                hidden=""
+              >
+                Our vibrant Mexico City office is home to agile software engineers, talented UX designers, and brilliant data scientists. Learn about the rich history of Mexico City.
+              </figcaption>
+            </figure>
             <div
               class="sc-htpNat jRJAUB"
             >
               <h2
-                class="sc-EHOje cgeWk"
+                class="sc-bZQynM iihQAR"
                 title="video-title"
               >
                 Wizeline Thrives in Mexico City
               </h2>
               <p
                 class="sc-bxivhb iKRSeQ"
-                role="figcaption"
+                role=""
               >
                 Our vibrant Mexico City office is home to agile software engineers, talented UX designers, and brilliant data scientists. Learn about the rich history of Mexico City.
               </p>
@@ -256,25 +310,34 @@ exports[`App layout renders 1`] = `
         >
           <div
             class="sc-bwzfXH fFIYHG"
-            role="figure"
+            role=""
           >
-            <img
-              alt="Wizeline"
-              class="sc-ifAKCX gmaJUr"
-              src="https://i.ytimg.com/vi/CHzlSGRvWPs/hqdefault.jpg"
-            />
+            <figure
+              class="sc-ifAKCX kHuOca"
+            >
+              <img
+                alt="Wizeline"
+                class="sc-EHOje hZoKKp"
+                src="https://i.ytimg.com/vi/CHzlSGRvWPs/hqdefault.jpg"
+              />
+              <figcaption
+                hidden=""
+              >
+                El plan de Wizeline, una empresa de inteligencia artificial, para ayudar a crecer la comunidad de ciencia de datos en CDMX y todo el país, a través de cursos ...
+              </figcaption>
+            </figure>
             <div
               class="sc-htpNat jRJAUB"
             >
               <h2
-                class="sc-EHOje cgeWk"
+                class="sc-bZQynM iihQAR"
                 title="video-title"
               >
                 Wizeline
               </h2>
               <p
                 class="sc-bxivhb iKRSeQ"
-                role="figcaption"
+                role=""
               >
                 El plan de Wizeline, una empresa de inteligencia artificial, para ayudar a crecer la comunidad de ciencia de datos en CDMX y todo el país, a través de cursos ...
               </p>
@@ -286,25 +349,34 @@ exports[`App layout renders 1`] = `
         >
           <div
             class="sc-bwzfXH fFIYHG"
-            role="figure"
+            role=""
           >
-            <img
-              alt="A Day in the Life of an Engineering Manager at Wizeline"
-              class="sc-ifAKCX gmaJUr"
-              src="https://i.ytimg.com/vi/cjO2fJy8asM/hqdefault.jpg"
-            />
+            <figure
+              class="sc-ifAKCX kHuOca"
+            >
+              <img
+                alt="A Day in the Life of an Engineering Manager at Wizeline"
+                class="sc-EHOje hZoKKp"
+                src="https://i.ytimg.com/vi/cjO2fJy8asM/hqdefault.jpg"
+              />
+              <figcaption
+                hidden=""
+              >
+                Fernando Espinoza shares his experience working as an engineering manager at Wizeline and mentoring other engineers. Learn about Fernando's passions ...
+              </figcaption>
+            </figure>
             <div
               class="sc-htpNat jRJAUB"
             >
               <h2
-                class="sc-EHOje cgeWk"
+                class="sc-bZQynM iihQAR"
                 title="video-title"
               >
                 A Day in the Life of an Engineering Manager at Wizeline
               </h2>
               <p
                 class="sc-bxivhb iKRSeQ"
-                role="figcaption"
+                role=""
               >
                 Fernando Espinoza shares his experience working as an engineering manager at Wizeline and mentoring other engineers. Learn about Fernando's passions ...
               </p>
@@ -316,25 +388,32 @@ exports[`App layout renders 1`] = `
         >
           <div
             class="sc-bwzfXH fFIYHG"
-            role="figure"
+            role=""
           >
-            <img
-              alt="Wizeline Technical Writing Academy | Featuring Eduardo Ocejo"
-              class="sc-ifAKCX gmaJUr"
-              src="https://i.ytimg.com/vi/zClI9OjgKXM/hqdefault.jpg"
-            />
+            <figure
+              class="sc-ifAKCX kHuOca"
+            >
+              <img
+                alt="Wizeline Technical Writing Academy | Featuring Eduardo Ocejo"
+                class="sc-EHOje hZoKKp"
+                src="https://i.ytimg.com/vi/zClI9OjgKXM/hqdefault.jpg"
+              />
+              <figcaption
+                hidden=""
+              />
+            </figure>
             <div
               class="sc-htpNat jRJAUB"
             >
               <h2
-                class="sc-EHOje cgeWk"
+                class="sc-bZQynM iihQAR"
                 title="video-title"
               >
                 Wizeline Technical Writing Academy | Featuring Eduardo Ocejo
               </h2>
               <p
                 class="sc-bxivhb iKRSeQ"
-                role="figcaption"
+                role=""
               />
             </div>
           </div>
@@ -344,25 +423,34 @@ exports[`App layout renders 1`] = `
         >
           <div
             class="sc-bwzfXH fFIYHG"
-            role="figure"
+            role=""
           >
-            <img
-              alt="Silicon Valley en México"
-              class="sc-ifAKCX gmaJUr"
-              src="https://i.ytimg.com/vi/8bz9R61oY5o/hqdefault.jpg"
-            />
+            <figure
+              class="sc-ifAKCX kHuOca"
+            >
+              <img
+                alt="Silicon Valley en México"
+                class="sc-EHOje hZoKKp"
+                src="https://i.ytimg.com/vi/8bz9R61oY5o/hqdefault.jpg"
+              />
+              <figcaption
+                hidden=""
+              >
+                Empresas de Silicon Valley buscan establecerse en México por el gran talento que hay en nuestro país. Es una investigación de Roberto Domínguez.
+              </figcaption>
+            </figure>
             <div
               class="sc-htpNat jRJAUB"
             >
               <h2
-                class="sc-EHOje cgeWk"
+                class="sc-bZQynM iihQAR"
                 title="video-title"
               >
                 Silicon Valley en México
               </h2>
               <p
                 class="sc-bxivhb iKRSeQ"
-                role="figcaption"
+                role=""
               >
                 Empresas de Silicon Valley buscan establecerse en México por el gran talento que hay en nuestro país. Es una investigación de Roberto Domínguez.
               </p>
@@ -374,25 +462,34 @@ exports[`App layout renders 1`] = `
         >
           <div
             class="sc-bwzfXH fFIYHG"
-            role="figure"
+            role=""
           >
-            <img
-              alt="Why Wizeline? featuring Juan Pablo Villa in Mexico City"
-              class="sc-ifAKCX gmaJUr"
-              src="https://i.ytimg.com/vi/7dJFraOqcoQ/hqdefault.jpg"
-            />
+            <figure
+              class="sc-ifAKCX kHuOca"
+            >
+              <img
+                alt="Why Wizeline? featuring Juan Pablo Villa in Mexico City"
+                class="sc-EHOje hZoKKp"
+                src="https://i.ytimg.com/vi/7dJFraOqcoQ/hqdefault.jpg"
+              />
+              <figcaption
+                hidden=""
+              >
+                Juan Pablo, known as Gianpa at Wizeline, is a software engineer in our Mexico City office. Gianpa focuses on Android apps, is an integral part of our culture, ...
+              </figcaption>
+            </figure>
             <div
               class="sc-htpNat jRJAUB"
             >
               <h2
-                class="sc-EHOje cgeWk"
+                class="sc-bZQynM iihQAR"
                 title="video-title"
               >
                 Why Wizeline? featuring Juan Pablo Villa in Mexico City
               </h2>
               <p
                 class="sc-bxivhb iKRSeQ"
-                role="figcaption"
+                role=""
               >
                 Juan Pablo, known as Gianpa at Wizeline, is a software engineer in our Mexico City office. Gianpa focuses on Android apps, is an integral part of our culture, ...
               </p>
@@ -404,25 +501,34 @@ exports[`App layout renders 1`] = `
         >
           <div
             class="sc-bwzfXH fFIYHG"
-            role="figure"
+            role=""
           >
-            <img
-              alt="Wizeline&#39;s 2020 Year in Review"
-              class="sc-ifAKCX gmaJUr"
-              src="https://i.ytimg.com/vi/w-Qwc_XJrWc/hqdefault.jpg"
-            />
+            <figure
+              class="sc-ifAKCX kHuOca"
+            >
+              <img
+                alt="Wizeline&#39;s 2020 Year in Review"
+                class="sc-EHOje hZoKKp"
+                src="https://i.ytimg.com/vi/w-Qwc_XJrWc/hqdefault.jpg"
+              />
+              <figcaption
+                hidden=""
+              >
+                There's no doubt that 2020 has been an unprecedented year. However, amidst all the chaos, we achieved remarkable growth in various areas of our business.
+              </figcaption>
+            </figure>
             <div
               class="sc-htpNat jRJAUB"
             >
               <h2
-                class="sc-EHOje cgeWk"
+                class="sc-bZQynM iihQAR"
                 title="video-title"
               >
                 Wizeline&#39;s 2020 Year in Review
               </h2>
               <p
                 class="sc-bxivhb iKRSeQ"
-                role="figcaption"
+                role=""
               >
                 There's no doubt that 2020 has been an unprecedented year. However, amidst all the chaos, we achieved remarkable growth in various areas of our business.
               </p>
@@ -434,25 +540,32 @@ exports[`App layout renders 1`] = `
         >
           <div
             class="sc-bwzfXH fFIYHG"
-            role="figure"
+            role=""
           >
-            <img
-              alt="Why Wizeline? featuring Hugo Lopez in Mexico City"
-              class="sc-ifAKCX gmaJUr"
-              src="https://i.ytimg.com/vi/rjir_cHTl5w/hqdefault.jpg"
-            />
+            <figure
+              class="sc-ifAKCX kHuOca"
+            >
+              <img
+                alt="Why Wizeline? featuring Hugo Lopez in Mexico City"
+                class="sc-EHOje hZoKKp"
+                src="https://i.ytimg.com/vi/rjir_cHTl5w/hqdefault.jpg"
+              />
+              <figcaption
+                hidden=""
+              />
+            </figure>
             <div
               class="sc-htpNat jRJAUB"
             >
               <h2
-                class="sc-EHOje cgeWk"
+                class="sc-bZQynM iihQAR"
                 title="video-title"
               >
                 Why Wizeline? featuring Hugo Lopez in Mexico City
               </h2>
               <p
                 class="sc-bxivhb iKRSeQ"
-                role="figcaption"
+                role=""
               />
             </div>
           </div>
@@ -462,25 +575,34 @@ exports[`App layout renders 1`] = `
         >
           <div
             class="sc-bwzfXH fFIYHG"
-            role="figure"
+            role=""
           >
-            <img
-              alt="Why Wizeline? (We&#39;re Hiring in Mexico!)"
-              class="sc-ifAKCX gmaJUr"
-              src="https://i.ytimg.com/vi/DcFK1x3NHGY/hqdefault.jpg"
-            />
+            <figure
+              class="sc-ifAKCX kHuOca"
+            >
+              <img
+                alt="Why Wizeline? (We&#39;re Hiring in Mexico!)"
+                class="sc-EHOje hZoKKp"
+                src="https://i.ytimg.com/vi/DcFK1x3NHGY/hqdefault.jpg"
+              />
+              <figcaption
+                hidden=""
+              >
+                A quick look at why people join Wizeline, what motivates us as a team and what it's like to work in our Guadalajara office. Learn more and apply here: ...
+              </figcaption>
+            </figure>
             <div
               class="sc-htpNat jRJAUB"
             >
               <h2
-                class="sc-EHOje cgeWk"
+                class="sc-bZQynM iihQAR"
                 title="video-title"
               >
                 Why Wizeline? (We&#39;re Hiring in Mexico!)
               </h2>
               <p
                 class="sc-bxivhb iKRSeQ"
-                role="figcaption"
+                role=""
               >
                 A quick look at why people join Wizeline, what motivates us as a team and what it's like to work in our Guadalajara office. Learn more and apply here: ...
               </p>
@@ -492,25 +614,34 @@ exports[`App layout renders 1`] = `
         >
           <div
             class="sc-bwzfXH fFIYHG"
-            role="figure"
+            role=""
           >
-            <img
-              alt="Why Wizeline? featuring Oswaldo Herrera in Mexico City"
-              class="sc-ifAKCX gmaJUr"
-              src="https://i.ytimg.com/vi/3BzYWAqZgFw/hqdefault.jpg"
-            />
+            <figure
+              class="sc-ifAKCX kHuOca"
+            >
+              <img
+                alt="Why Wizeline? featuring Oswaldo Herrera in Mexico City"
+                class="sc-EHOje hZoKKp"
+                src="https://i.ytimg.com/vi/3BzYWAqZgFw/hqdefault.jpg"
+              />
+              <figcaption
+                hidden=""
+              >
+                Oswaldo is a software engineering in Wizeline's Mexico City office. He joined Wizeline because of the camaraderie and deep sense of commitment of our teams.
+              </figcaption>
+            </figure>
             <div
               class="sc-htpNat jRJAUB"
             >
               <h2
-                class="sc-EHOje cgeWk"
+                class="sc-bZQynM iihQAR"
                 title="video-title"
               >
                 Why Wizeline? featuring Oswaldo Herrera in Mexico City
               </h2>
               <p
                 class="sc-bxivhb iKRSeQ"
-                role="figcaption"
+                role=""
               >
                 Oswaldo is a software engineering in Wizeline's Mexico City office. He joined Wizeline because of the camaraderie and deep sense of commitment of our teams.
               </p>
@@ -522,25 +653,34 @@ exports[`App layout renders 1`] = `
         >
           <div
             class="sc-bwzfXH fFIYHG"
-            role="figure"
+            role=""
           >
-            <img
-              alt="Caso de Éxito AWS: Wizeline [Spanish]"
-              class="sc-ifAKCX gmaJUr"
-              src="https://i.ytimg.com/vi/3KVFmT-Tp2w/hqdefault.jpg"
-            />
+            <figure
+              class="sc-ifAKCX kHuOca"
+            >
+              <img
+                alt="Caso de Éxito AWS: Wizeline [Spanish]"
+                class="sc-EHOje hZoKKp"
+                src="https://i.ytimg.com/vi/3KVFmT-Tp2w/hqdefault.jpg"
+              />
+              <figcaption
+                hidden=""
+              >
+                Central de socios de APN - https://amzn.to/2S7tIXM Fundada en 2014, Wizeline es una compañía joven e innovadora que nació en la nube para ofrecer soporte ...
+              </figcaption>
+            </figure>
             <div
               class="sc-htpNat jRJAUB"
             >
               <h2
-                class="sc-EHOje cgeWk"
+                class="sc-bZQynM iihQAR"
                 title="video-title"
               >
                 Caso de Éxito AWS: Wizeline [Spanish]
               </h2>
               <p
                 class="sc-bxivhb iKRSeQ"
-                role="figcaption"
+                role=""
               >
                 Central de socios de APN - https://amzn.to/2S7tIXM Fundada en 2014, Wizeline es una compañía joven e innovadora que nació en la nube para ofrecer soporte ...
               </p>
@@ -552,25 +692,32 @@ exports[`App layout renders 1`] = `
         >
           <div
             class="sc-bwzfXH fFIYHG"
-            role="figure"
+            role=""
           >
-            <img
-              alt="Wizeline&#39;s 2019 Year in Review"
-              class="sc-ifAKCX gmaJUr"
-              src="https://i.ytimg.com/vi/aKuPmY2m1Ro/hqdefault.jpg"
-            />
+            <figure
+              class="sc-ifAKCX kHuOca"
+            >
+              <img
+                alt="Wizeline&#39;s 2019 Year in Review"
+                class="sc-EHOje hZoKKp"
+                src="https://i.ytimg.com/vi/aKuPmY2m1Ro/hqdefault.jpg"
+              />
+              <figcaption
+                hidden=""
+              />
+            </figure>
             <div
               class="sc-htpNat jRJAUB"
             >
               <h2
-                class="sc-EHOje cgeWk"
+                class="sc-bZQynM iihQAR"
                 title="video-title"
               >
                 Wizeline&#39;s 2019 Year in Review
               </h2>
               <p
                 class="sc-bxivhb iKRSeQ"
-                role="figcaption"
+                role=""
               />
             </div>
           </div>
@@ -580,25 +727,34 @@ exports[`App layout renders 1`] = `
         >
           <div
             class="sc-bwzfXH fFIYHG"
-            role="figure"
+            role=""
           >
-            <img
-              alt="[1 of 2] Wizeline CEO shares career lessons from Google"
-              class="sc-ifAKCX gmaJUr"
-              src="https://i.ytimg.com/vi/24sTHUyWhRM/hqdefault.jpg"
-            />
+            <figure
+              class="sc-ifAKCX kHuOca"
+            >
+              <img
+                alt="[1 of 2] Wizeline CEO shares career lessons from Google"
+                class="sc-EHOje hZoKKp"
+                src="https://i.ytimg.com/vi/24sTHUyWhRM/hqdefault.jpg"
+              />
+              <figcaption
+                hidden=""
+              >
+                Founder & CEO Bismarck Lepe on growth opportunities at Wizeline and his career-path experience as an early Google employee. Join our team!
+              </figcaption>
+            </figure>
             <div
               class="sc-htpNat jRJAUB"
             >
               <h2
-                class="sc-EHOje cgeWk"
+                class="sc-bZQynM iihQAR"
                 title="video-title"
               >
                 [1 of 2] Wizeline CEO shares career lessons from Google
               </h2>
               <p
                 class="sc-bxivhb iKRSeQ"
-                role="figcaption"
+                role=""
               >
                 Founder & CEO Bismarck Lepe on growth opportunities at Wizeline and his career-path experience as an early Google employee. Join our team!
               </p>
@@ -610,25 +766,34 @@ exports[`App layout renders 1`] = `
         >
           <div
             class="sc-bwzfXH fFIYHG"
-            role="figure"
+            role=""
           >
-            <img
-              alt="Wizeline Data Engineering featuring Tania Reyes"
-              class="sc-ifAKCX gmaJUr"
-              src="https://i.ytimg.com/vi/IxGc1gSqB3A/hqdefault.jpg"
-            />
+            <figure
+              class="sc-ifAKCX kHuOca"
+            >
+              <img
+                alt="Wizeline Data Engineering featuring Tania Reyes"
+                class="sc-EHOje hZoKKp"
+                src="https://i.ytimg.com/vi/IxGc1gSqB3A/hqdefault.jpg"
+              />
+              <figcaption
+                hidden=""
+              >
+                Tania discovered her interest in Big Data while working at Wizeline and took Wizeline Academy courses to skill up and join the data team. Now, she works on ...
+              </figcaption>
+            </figure>
             <div
               class="sc-htpNat jRJAUB"
             >
               <h2
-                class="sc-EHOje cgeWk"
+                class="sc-bZQynM iihQAR"
                 title="video-title"
               >
                 Wizeline Data Engineering featuring Tania Reyes
               </h2>
               <p
                 class="sc-bxivhb iKRSeQ"
-                role="figcaption"
+                role=""
               >
                 Tania discovered her interest in Big Data while working at Wizeline and took Wizeline Academy courses to skill up and join the data team. Now, she works on ...
               </p>
@@ -640,25 +805,34 @@ exports[`App layout renders 1`] = `
         >
           <div
             class="sc-bwzfXH fFIYHG"
-            role="figure"
+            role=""
           >
-            <img
-              alt="Wizeline Querétaro | Mexico&#39;s New Knowledge Economy (We&#39;re hiring!)"
-              class="sc-ifAKCX gmaJUr"
-              src="https://i.ytimg.com/vi/NP1gAnbeNno/hqdefault.jpg"
-            />
+            <figure
+              class="sc-ifAKCX kHuOca"
+            >
+              <img
+                alt="Wizeline Querétaro | Mexico&#39;s New Knowledge Economy (We&#39;re hiring!)"
+                class="sc-EHOje hZoKKp"
+                src="https://i.ytimg.com/vi/NP1gAnbeNno/hqdefault.jpg"
+              />
+              <figcaption
+                hidden=""
+              >
+                A small but mighty (and growing) team, the Queretaro crew has taken ownership of growing the office and brand, speaking at university events, hosting tech ...
+              </figcaption>
+            </figure>
             <div
               class="sc-htpNat jRJAUB"
             >
               <h2
-                class="sc-EHOje cgeWk"
+                class="sc-bZQynM iihQAR"
                 title="video-title"
               >
                 Wizeline Querétaro | Mexico&#39;s New Knowledge Economy (We&#39;re hiring!)
               </h2>
               <p
                 class="sc-bxivhb iKRSeQ"
-                role="figcaption"
+                role=""
               >
                 A small but mighty (and growing) team, the Queretaro crew has taken ownership of growing the office and brand, speaking at university events, hosting tech ...
               </p>
@@ -670,25 +844,34 @@ exports[`App layout renders 1`] = `
         >
           <div
             class="sc-bwzfXH fFIYHG"
-            role="figure"
+            role=""
           >
-            <img
-              alt="Miriam Godinez | Women in Leadership at Wizeline"
-              class="sc-ifAKCX gmaJUr"
-              src="https://i.ytimg.com/vi/F6Krwu6lUc8/hqdefault.jpg"
-            />
+            <figure
+              class="sc-ifAKCX kHuOca"
+            >
+              <img
+                alt="Miriam Godinez | Women in Leadership at Wizeline"
+                class="sc-EHOje hZoKKp"
+                src="https://i.ytimg.com/vi/F6Krwu6lUc8/hqdefault.jpg"
+              />
+              <figcaption
+                hidden=""
+              >
+                Science and technology always caught Miriam's attention. One of her ultimate goals as a Senior Engineer Manager and Lead from the Mobile Team at Wizeline ...
+              </figcaption>
+            </figure>
             <div
               class="sc-htpNat jRJAUB"
             >
               <h2
-                class="sc-EHOje cgeWk"
+                class="sc-bZQynM iihQAR"
                 title="video-title"
               >
                 Miriam Godinez | Women in Leadership at Wizeline
               </h2>
               <p
                 class="sc-bxivhb iKRSeQ"
-                role="figcaption"
+                role=""
               >
                 Science and technology always caught Miriam's attention. One of her ultimate goals as a Senior Engineer Manager and Lead from the Mobile Team at Wizeline ...
               </p>
@@ -700,25 +883,34 @@ exports[`App layout renders 1`] = `
         >
           <div
             class="sc-bwzfXH fFIYHG"
-            role="figure"
+            role=""
           >
-            <img
-              alt="Welcome Back to Wizeline Vietnam | Extended Version"
-              class="sc-ifAKCX gmaJUr"
-              src="https://i.ytimg.com/vi/RFq7gfvhtCk/hqdefault.jpg"
-            />
+            <figure
+              class="sc-ifAKCX kHuOca"
+            >
+              <img
+                alt="Welcome Back to Wizeline Vietnam | Extended Version"
+                class="sc-EHOje hZoKKp"
+                src="https://i.ytimg.com/vi/RFq7gfvhtCk/hqdefault.jpg"
+              />
+              <figcaption
+                hidden=""
+              >
+                Thanks to swift government action, the COVID-19 situation in Vietnam has reached a point where businesses are able to return to work and reopen offices.
+              </figcaption>
+            </figure>
             <div
               class="sc-htpNat jRJAUB"
             >
               <h2
-                class="sc-EHOje cgeWk"
+                class="sc-bZQynM iihQAR"
                 title="video-title"
               >
                 Welcome Back to Wizeline Vietnam | Extended Version
               </h2>
               <p
                 class="sc-bxivhb iKRSeQ"
-                role="figcaption"
+                role=""
               >
                 Thanks to swift government action, the COVID-19 situation in Vietnam has reached a point where businesses are able to return to work and reopen offices.
               </p>
@@ -730,25 +922,34 @@ exports[`App layout renders 1`] = `
         >
           <div
             class="sc-bwzfXH fFIYHG"
-            role="figure"
+            role=""
           >
-            <img
-              alt="How does Wizeline work?"
-              class="sc-ifAKCX gmaJUr"
-              src="https://i.ytimg.com/vi/E1Vq_A3WKK8/hqdefault.jpg"
-            />
+            <figure
+              class="sc-ifAKCX kHuOca"
+            >
+              <img
+                alt="How does Wizeline work?"
+                class="sc-EHOje hZoKKp"
+                src="https://i.ytimg.com/vi/E1Vq_A3WKK8/hqdefault.jpg"
+              />
+              <figcaption
+                hidden=""
+              >
+                Wizeline builds teams with a mix of technical and non-technical talent to deliver better products, faster. Learn more about our consulting services: ...
+              </figcaption>
+            </figure>
             <div
               class="sc-htpNat jRJAUB"
             >
               <h2
-                class="sc-EHOje cgeWk"
+                class="sc-bZQynM iihQAR"
                 title="video-title"
               >
                 How does Wizeline work?
               </h2>
               <p
                 class="sc-bxivhb iKRSeQ"
-                role="figcaption"
+                role=""
               >
                 Wizeline builds teams with a mix of technical and non-technical talent to deliver better products, faster. Learn more about our consulting services: ...
               </p>
@@ -760,25 +961,32 @@ exports[`App layout renders 1`] = `
         >
           <div
             class="sc-bwzfXH fFIYHG"
-            role="figure"
+            role=""
           >
-            <img
-              alt="12 Wishes from Wizeline | Happy Holidays 2019"
-              class="sc-ifAKCX gmaJUr"
-              src="https://i.ytimg.com/vi/ZmkslANDz0Q/hqdefault.jpg"
-            />
+            <figure
+              class="sc-ifAKCX kHuOca"
+            >
+              <img
+                alt="12 Wishes from Wizeline | Happy Holidays 2019"
+                class="sc-EHOje hZoKKp"
+                src="https://i.ytimg.com/vi/ZmkslANDz0Q/hqdefault.jpg"
+              />
+              <figcaption
+                hidden=""
+              />
+            </figure>
             <div
               class="sc-htpNat jRJAUB"
             >
               <h2
-                class="sc-EHOje cgeWk"
+                class="sc-bZQynM iihQAR"
                 title="video-title"
               >
                 12 Wishes from Wizeline | Happy Holidays 2019
               </h2>
               <p
                 class="sc-bxivhb iKRSeQ"
-                role="figcaption"
+                role=""
               />
             </div>
           </div>
@@ -788,25 +996,34 @@ exports[`App layout renders 1`] = `
         >
           <div
             class="sc-bwzfXH fFIYHG"
-            role="figure"
+            role=""
           >
-            <img
-              alt="Why Wizeline?"
-              class="sc-ifAKCX gmaJUr"
-              src="https://i.ytimg.com/vi/Nss3EmTDD3s/hqdefault.jpg"
-            />
+            <figure
+              class="sc-ifAKCX kHuOca"
+            >
+              <img
+                alt="Why Wizeline?"
+                class="sc-EHOje hZoKKp"
+                src="https://i.ytimg.com/vi/Nss3EmTDD3s/hqdefault.jpg"
+              />
+              <figcaption
+                hidden=""
+              >
+                Hear from our employees directly about what excites them about their roles here at Wizeline. Wizeline wants to hire the best and the brightest to accelerate their ...
+              </figcaption>
+            </figure>
             <div
               class="sc-htpNat jRJAUB"
             >
               <h2
-                class="sc-EHOje cgeWk"
+                class="sc-bZQynM iihQAR"
                 title="video-title"
               >
                 Why Wizeline?
               </h2>
               <p
                 class="sc-bxivhb iKRSeQ"
-                role="figcaption"
+                role=""
               >
                 Hear from our employees directly about what excites them about their roles here at Wizeline. Wizeline wants to hire the best and the brightest to accelerate their ...
               </p>
