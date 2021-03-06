@@ -23,7 +23,7 @@ describe('HomeView styles', () => {
   });
 
   it('renders children content', () => {
-    const children = "Children content";
+    const children = 'Children content';
     const { firstChild } = build(<HomeView>{children}</HomeView>).container;
     expect(firstChild).toHaveTextContent(children);
   });

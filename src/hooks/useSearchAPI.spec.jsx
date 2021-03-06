@@ -2,11 +2,11 @@
 // import useSearchAPI from "./useSearchAPI";
 // import { data } from "../utils/testing"
 
-describe("TT",() => {
-    it("",()=>{
-        expect(true).toBe(true);
-    })
-})
+describe('TT', () => {
+  it('', () => {
+    expect(true).toBe(true);
+  });
+});
 
 // global.gapi = {
 //     load: jest.fn(),

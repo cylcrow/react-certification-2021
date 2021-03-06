@@ -34,7 +34,11 @@ const Header = () => {
           <IconWrapper role="button" src={hamburger} alt="hamburguer" />
         </div>
         <div data-testid="search-input">
-          <TextField role="search" ref={ref} onKeyPress={({charCode})  => charCode === 13 && search(ref.current.value)}/>
+          <TextField
+            role="search"
+            ref={ref}
+            onKeyPress={({ charCode }) => charCode === 13 && search(ref.current.value)}
+          />
         </div>
       </StyledSection>
       <StyledSection>

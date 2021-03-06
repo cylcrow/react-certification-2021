@@ -1,10 +1,10 @@
 import React from 'react';
 import 'jest-styled-components';
 import { getAllByTestId } from '@testing-library/react';
-import { data } from '../../utils/testing';
+import { data, renderWithTheme, contextWrapper } from '../../utils/testing';
 import { lightTheme } from '../../providers/themes';
-import { renderWithTheme, contextWrapper } from '../../utils/testing';
-import SearchContext from "../../providers/SearchContext";
+
+import SearchContext from '../../providers/SearchContext';
 import HomeVideos from './HomeVideos';
 
 const build = (Component = <HomeVideos />, theme = lightTheme) => {

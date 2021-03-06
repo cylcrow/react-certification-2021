@@ -10,7 +10,7 @@ const build = (Component = <CardImage />) => {
 describe('CardImage', () => {
   it('applies default styling', () => {
     const { container } = build();
-    const img = getByRole(container, "img");
+    const img = getByRole(container, 'img');
     expect(img).toHaveStyle('height: 140px');
     expect(img).toHaveStyle('width: 100%');
     expect(img).toHaveStyle('display: block');
@@ -23,13 +23,14 @@ describe('CardImage', () => {
   it('shows image', () => {
     const EXPECTED_ALT = 'alternative text';
     const EXPECTED_SRC = '/image.png';
-    const EXPECTED_FIGCAPTION = 'This is the accesibility text intended to be read by the screen reader';
+    const EXPECTED_FIGCAPTION =
+      'This is the accesibility text intended to be read by the screen reader';
     const { container } = build(
-      <CardImage src={EXPECTED_SRC} alt={EXPECTED_ALT} figcaption={EXPECTED_FIGCAPTION}/>
+      <CardImage src={EXPECTED_SRC} alt={EXPECTED_ALT} figcaption={EXPECTED_FIGCAPTION} />
     );
 
-    const img =  getByRole(container, "img");
-    const figcaption =  container.querySelector("figcaption");
+    const img = getByRole(container, 'img');
+    const figcaption = container.querySelector('figcaption');
 
     expect(img).toHaveAttribute('src', EXPECTED_SRC);
     expect(img).toHaveAttribute('alt', EXPECTED_ALT);

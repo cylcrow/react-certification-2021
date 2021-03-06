@@ -12,13 +12,11 @@ const StyledDiv = styled.div`
 `;
 
 const HomeVideos = () => {
-
   const { videos } = useContext(SearchContext);
 
   return (
     <StyledDiv>
-      {
-        videos ?
+      {videos ? (
         videos.map((video) => {
           const key = JSON.stringify(video.id);
           return (
@@ -26,8 +24,10 @@ const HomeVideos = () => {
               <VideoCard video={video} />
             </div>
           );
-        }): <div>No hay videos :/</div>
-      }
+        })
+      ) : (
+        <div>No hay videos :/</div>
+      )}
     </StyledDiv>
   );
 };

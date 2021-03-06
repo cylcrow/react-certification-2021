@@ -6,7 +6,7 @@ import { renderWithTheme } from '../../utils/testing';
 
 global.gapi = {
   load: jest.fn(),
-  client: { request: jest.fn() }
+  client: { request: jest.fn() },
 };
 
 const build = (Component = <App />, theme = lightTheme) => {

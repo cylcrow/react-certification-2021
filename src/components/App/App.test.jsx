@@ -4,7 +4,7 @@ import App from './index';
 
 global.gapi = {
   load: jest.fn(),
-  client: { request: jest.fn() }
+  client: { request: jest.fn() },
 };
 
 const build = () => {
