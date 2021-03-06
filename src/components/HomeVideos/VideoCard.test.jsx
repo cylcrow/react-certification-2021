@@ -1,9 +1,9 @@
 import React from 'react';
 import 'jest-styled-components';
 import { getByRole, getByTitle } from '@testing-library/react';
-import { data } from './mockData';
-import VideoCard from './VideoCard';
+import { data } from '../../utils/testing';
 import { renderWithTheme } from '../../utils/testing';
+import VideoCard from './VideoCard';
 
 const build = (Component = <VideoCard />) => {
   const { container } = renderWithTheme(Component);

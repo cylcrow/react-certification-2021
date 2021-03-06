@@ -1,11 +1,11 @@
 import React from "react";
-import SearchContext from "../providers/search/search";
-import { useSearchAPI } from '../hooks/useSearchAPI';
+import SearchContext from "../providers/SearchContext";
+import useSearchAPI from '../hooks/useSearchAPI';
 
-export const SearchWrapper = ({children}) => {
-    const [search, response] = useSearchAPI();
+export const SearchWrapper = ({ children }) => {
+    const {search, videos} = useSearchAPI();
 
-    return (<SearchContext.Provider value={ {search, videos: response} }>{
-        children
-    }</SearchContext.Provider>);
+    return (<SearchContext.Provider value={ {search, videos } }>
+            { children }
+            </SearchContext.Provider>);
 }

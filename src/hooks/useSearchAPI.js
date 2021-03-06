@@ -1,26 +1,31 @@
-import { useEffect, useState } from "react";
-import { useYoutubeAPI } from "./useYoutubeAPI";
+import { useEffect, useState } from 'react';
 
+const useSearchAPI = () => {
+  const [videos, setVideos] = useState([]);
+  const [hasLoaded, setHasLoaded] = useState(false);
 
-export const useSearchAPI = () => {
-    const [client] = useYoutubeAPI();
-    const [response, setResponse] = useState();
-
-    const search = (query = "") => {
-        // console.log(query);
-        client
-        .request({ 'path': `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=${query}&maxResults=12`, })
-        .then(
-            function(response) { setResponse(response.items); }, 
-            function(reason) { console.log("Error:"  + reason.result.error.message ); }
-        );
+  const search = async (query) => {
+    try {
+      /* global gapi */
+      /* eslint no-undef: "error" */
+      const { result } = await gapi.client.request({
+        path: `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=${query}&maxResults=12&regionCode=MX`,
+      });
+      setVideos(result.items);
+    } catch (reason) {
+      console.log(`Error:${reason}`);
+      setVideos([]);
     }
+  };
 
-    useEffect(() => {
-        if(client){
-            search();
-        }
-    }, [client, search]);
+  useEffect(() => {
+    if (!hasLoaded) {
+      setHasLoaded(true);
+      search('');
+    }
+  }, [hasLoaded]);
 
-    return [search, response];
-}
+  return { search, videos };
+};
+
+export default useSearchAPI;
