@@ -1,5 +1,5 @@
 import React from 'react';
-import { getByRole, getByText, render } from '@testing-library/react';
+import { getByRole, render } from '@testing-library/react';
 import CardImage from './CardImage';
 
 const build = (Component = <CardImage />) => {
