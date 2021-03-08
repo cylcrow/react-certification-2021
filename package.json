@@ -64,5 +64,10 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "src/utils/testing/helpers"
+    ]
   }
 }

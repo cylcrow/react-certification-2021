@@ -6,7 +6,7 @@ import { googleMockedAPIObject } from '../../utils';
 import { lightTheme } from '../../providers/themes';
 import LayoutWrapper from './LayoutWrapper';
 
-global.gapi = googleMockedAPIObject;
+global.gapi = googleMockedAPIObject();
 
 const build = async (Component = <LayoutWrapper />) => {
   let container;

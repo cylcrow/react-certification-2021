@@ -1,17 +1,9 @@
 import React from 'react';
 import { act, getByRole, render } from '@testing-library/react';
+import { googleMockedAPIObject } from '../../utils';
 import App from './index';
 
-global.gapi = {
-  load: jest.fn(),
-  client: {
-    request: jest.fn().mockReturnValue(
-      new Promise((res) => {
-        res({ result: { items: [] } });
-      })
-    ),
-  },
-};
+global.gapi = googleMockedAPIObject();
 
 const build = async (Component = <App />) => {
   let container;

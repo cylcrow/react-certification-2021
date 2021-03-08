@@ -1,19 +1,10 @@
 import React from 'react';
 import { fireEvent, getByRole, act } from '@testing-library/react';
 import { darkTheme, lightTheme } from '../../providers/themes';
-import { renderWithTheme } from '../../utils';
+import { renderWithTheme, googleMockedAPIObject } from '../../utils';
 import App from './index';
 
-global.gapi = {
-  load: jest.fn(),
-  client: {
-    request: jest.fn().mockReturnValue(
-      new Promise((res) => {
-        res({ result: { items: [] } });
-      })
-    ),
-  },
-};
+global.gapi = googleMockedAPIObject();
 
 const build = async (Component = <App />, theme = lightTheme) => {
   let container;

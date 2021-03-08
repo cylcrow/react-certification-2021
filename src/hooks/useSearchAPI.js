@@ -12,7 +12,7 @@ const useSearchAPI = () => {
       });
       setVideos(result.items);
     } catch (reason) {
-      console.log(`Error:${reason}`);
+      setVideos([]);
     }
   };
 
