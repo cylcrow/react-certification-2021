@@ -3,7 +3,7 @@ import styled, { ThemeProvider } from 'styled-components';
 import { LayoutWrapper } from '../Layout';
 import { lightTheme, darkTheme } from '../../providers/themes';
 import VideoPlayerContainer from '../VideoPlayer/VideoPlayerContainer';
-import AppContext from "../../providers/AppContext"
+import AppContext from '../../providers/AppContext';
 import HomeVideos from '../HomeVideos/HomeVideos';
 
 const StyledWelcome = styled.div`
@@ -25,11 +25,11 @@ function App() {
 
   const setHomeVideosView = () => {
     setVideoID(null);
-  }
+  };
 
   return (
     <ThemeProvider theme={getThemeConfig()}>
-      <AppContext.Provider value={ {setHomeVideosView} }>
+      <AppContext.Provider value={{ setHomeVideosView }}>
         <LayoutWrapper>
           {videoID ? (
             <div data-testid="video-player-container">

@@ -24,16 +24,15 @@ const StyledSection = styled.div`
 `;
 
 const Header = () => {
-  const appcontext = useContext(AppContext);
+  const { setHomeVideosView } = useContext(AppContext);
   const { switchTheme } = useContext(ThemeContext);
   const { search } = useContext(SearchContext);
   const ref = useRef(null);
 
   const setHomeVideosViewAndSearch = (query) => {
-    console.log(appcontext);
-    appcontext.setHomeVideosView();
+    setHomeVideosView();
     search(query);
-  }
+  };
 
   return (
     <StyledHeader role="toolbar" data-testid="header">
@@ -45,7 +44,9 @@ const Header = () => {
           <TextField
             role="search"
             ref={ref}
-            onKeyPress={({ charCode }) => charCode === 13 && setHomeVideosViewAndSearch(ref.current.value)}
+            onKeyPress={({ charCode }) =>
+              charCode === 13 && setHomeVideosViewAndSearch(ref.current.value)
+            }
           />
         </div>
       </StyledSection>
