@@ -1,4 +1,4 @@
-export const data = {
+const youtubeMockedData = {
   kind: 'youtube#searchListResponse',
   etag: 'LRviZfd_p3HDDD2uBk5Qv7zaEQU',
   nextPageToken: 'CBkQAA',
@@ -879,3 +879,5 @@ export const data = {
     },
   ],
 };
+
+export default youtubeMockedData;
