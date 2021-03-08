@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import { LayoutWrapper } from '../Layout';
-import HomeVideos from '../HomeVideos/HomeVideos';
 import { lightTheme, darkTheme } from '../../providers/themes';
-import VideoPlayerContainer from '../HomeVideos/VideoPlayerContainer';
+import VideoPlayerContainer from '../VideoPlayer/VideoPlayerContainer';
+import HomeVideos from '../HomeVideos/HomeVideos';
 
 const StyledWelcome = styled.div`
   text-align: center;
@@ -27,7 +27,7 @@ function App() {
       <LayoutWrapper>
         {videoID ? (
           <div data-testid="video-player-container">
-            <VideoPlayerContainer />
+            <VideoPlayerContainer videoId={videoID}/>
           </div>
         ) : (
           <div>
