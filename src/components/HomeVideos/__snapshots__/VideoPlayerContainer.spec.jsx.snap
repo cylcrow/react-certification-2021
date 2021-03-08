@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoPlayerContainer shows div for iframe load 1`] = `
+<div
+  class="sc-bdVaJa fePDys"
+>
+  <div
+    id="player"
+  />
+</div>
+`;
